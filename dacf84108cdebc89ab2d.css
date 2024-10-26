@@ -1,0 +1,95 @@
+* {
+  font-size: 13px;
+}
+
+.login {
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+
+header {
+  padding: 1.2rem;
+}
+
+.header-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.page {
+  margin: 1.2rem;
+  margin-bottom: 5rem;
+}
+
+.page-title {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.page-section-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.page-section-container {
+  padding: 1rem;
+}
+
+.page-button-container {
+  margin-top: 2.4rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+.badge {
+  line-height: 1.5; 
+  padding: 0.2rem 0.8rem;
+}
+
+.card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+
+.searchselect-dropdown-button {
+  width: 100%;
+}
+
+.searchselect-dropdown-button-text {
+  width: 100%;
+  white-space: nowrap;
+  /* overflow: scroll; */
+}
+
+.searchselect-dropdown {
+  width: 100%;
+}
+
+.searchselect-input {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  padding-top: 4px;
+}
+
+.dropdown-menu.show {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  width: 100%;
+  padding-top: 0px;
+  max-height: 200px;
+  overflow: scroll;
+  --bs-dropdown-divider-margin-y: 5px;
+}
