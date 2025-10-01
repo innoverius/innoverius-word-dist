@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>516f493b-d7df-4a1f-b018-02d556218df5</Id>
-  <Version>1.0.0.5</Version>
+  <Version>1.0.0.7</Version>
   <ProviderName>Innoverius</ProviderName>
   <DefaultLocale>nl-BE</DefaultLocale>
   <DisplayName DefaultValue="Innoverius"/>
