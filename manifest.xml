@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>516f493b-d7df-4a1f-b018-02d556218df5</Id>
-  <Version>1.0.0.8</Version>
+  <Version>2.0.0.0</Version>
   <ProviderName>Innoverius</ProviderName>
-  <DefaultLocale>nl-BE</DefaultLocale>
+  <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Innoverius"/>
-  <Description DefaultValue="The Innoverius Word Add-in allows you to unleash the power of document automation and artificial intelligence within your cases."/>
+  <Description DefaultValue="The Innoverius Word Add-in allows you to unleash the power of document automation and legal intelligence within your cases."/>
   <IconUrl DefaultValue="https://innoverius.github.io/innoverius-word-dist/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://innoverius.github.io/innoverius-word-dist/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://www.innoverius.com/support"/>
   <AppDomains>
-    <AppDomain>https://www.innoverius.com</AppDomain>
+    <AppDomain>https://localhost:3000</AppDomain>
+    <AppDomain>https://innoverius.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Document"/>
@@ -62,7 +63,6 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://innoverius.github.io/innoverius-word-dist/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
         <bt:Url id="Commands.Url" DefaultValue="https://innoverius.github.io/innoverius-word-dist/commands.html"/>
         <bt:Url id="Taskpane.Url" DefaultValue="https://innoverius.github.io/innoverius-word-dist/taskpane.html"/>
       </bt:Urls>
@@ -71,7 +71,7 @@
         <bt:String id="TaskpaneButton.Label" DefaultValue="Innoverius"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open the Innoverius Word Add-in."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open the Innoverius Word AI Add-in."/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
